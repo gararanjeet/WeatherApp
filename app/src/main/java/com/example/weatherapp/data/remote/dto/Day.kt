@@ -4,8 +4,8 @@ data class Day(
     val avghumidity: Int,
     val avgtemp_c: Double,
     val avgtemp_f: Double,
-    val avgvis_km: Int,
-    val avgvis_miles: Int,
+    val avgvis_km: Double,
+    val avgvis_miles: Double,
     val condition: Condition,
     val daily_chance_of_rain: Int,
     val daily_chance_of_snow: Int,
@@ -17,8 +17,8 @@ data class Day(
     val maxwind_mph: Double,
     val mintemp_c: Double,
     val mintemp_f: Double,
-    val totalprecip_in: Int,
-    val totalprecip_mm: Int,
-    val totalsnow_cm: Int,
+    val totalprecip_in: Double,
+    val totalprecip_mm: Double,
+    val totalsnow_cm: Double,
     val uv: Double
 )
